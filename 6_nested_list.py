@@ -22,6 +22,27 @@
 
 # Binary to Decimal conversion
 
+# binary = input("Enter binary number: ")
+
+# decimal = 0
+# base = 1
+
+# i = len(binary) - 1
+
+# while i >= 0:
+#     digit = int(binary[i])
+    
+#     decimal = decimal + (digit * base)
+    
+#     base = base * 2
+    
+#     i = i - 1
+
+# print("Decimal value:", decimal)
+
+
+# Binary to Decimal conversion
+
 binary = input("Enter binary number: ")
 
 decimal = 0
