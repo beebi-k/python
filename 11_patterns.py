@@ -1,10 +1,10 @@
-n = int(input("Enter number: "))
+num = 153
 
-# find length of number
-length = len(str(n))
+# find length
+length = len(str(num))
 
-temp = n
-total = 0
+temp = num
+sum = 0
 
 
 # separate digits
@@ -12,14 +12,14 @@ while temp > 0:
 
     digit = temp % 10
 
-    total = total + (digit ** length)
+    sum = sum + (digit ** length)
 
     temp = temp // 10
 
 
 # check condition
 
-if total == n:
+if sum == num:
     print("Armstrong number")
 else:
     print("Not Armstrong number")
