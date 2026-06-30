@@ -7,6 +7,9 @@ c = [val for val in s if val != " " and val not in "aeiou"]
 
 print(v)
 print(c)
-vow =[]
-con=[]
-l=[vow.append(i) if i in ['a','e','i','o','u'] else con.append(i) for i in s if i!=' ']
+
+# vow =[]
+# con=[]
+# l=[vow.append(i) if i in ['a','e','i','o','u'] else con.append(i) for i in s if i!=' ']
+# print(vow)
+# print(con)
